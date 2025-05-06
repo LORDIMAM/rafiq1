@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rafiq1/static/css/main.2a596d07.css",
-    "main.js": "/rafiq1/static/js/main.ddb14cea.js",
+    "main.js": "/rafiq1/static/js/main.68cccb61.js",
     "static/js/453.070b9a6d.chunk.js": "/rafiq1/static/js/453.070b9a6d.chunk.js",
     "static/media/Big Rafiq.png": "/rafiq1/static/media/Big Rafiq.2952d51ea4460d71d587.png",
     "static/media/RafiqX.png": "/rafiq1/static/media/RafiqX.6dcc8e2f391bc884f5ce.png",
@@ -16,11 +16,11 @@
     "static/media/apple_store.webp": "/rafiq1/static/media/apple_store.275578c4a9e6b1cc4d6d.webp",
     "index.html": "/rafiq1/index.html",
     "main.2a596d07.css.map": "/rafiq1/static/css/main.2a596d07.css.map",
-    "main.ddb14cea.js.map": "/rafiq1/static/js/main.ddb14cea.js.map",
+    "main.68cccb61.js.map": "/rafiq1/static/js/main.68cccb61.js.map",
     "453.070b9a6d.chunk.js.map": "/rafiq1/static/js/453.070b9a6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a596d07.css",
-    "static/js/main.ddb14cea.js"
+    "static/js/main.68cccb61.js"
   ]
 }
