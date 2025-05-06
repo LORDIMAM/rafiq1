@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rafiq1/static/css/main.4ea65e20.css",
-    "main.js": "/rafiq1/static/js/main.1d394517.js",
+    "main.css": "/rafiq1/static/css/main.5d98b03c.css",
+    "main.js": "/rafiq1/static/js/main.d59e936e.js",
     "static/js/453.070b9a6d.chunk.js": "/rafiq1/static/js/453.070b9a6d.chunk.js",
     "static/media/Big Rafiq.png": "/rafiq1/static/media/Big Rafiq.2952d51ea4460d71d587.png",
     "static/media/RafiqX.png": "/rafiq1/static/media/RafiqX.6dcc8e2f391bc884f5ce.png",
     "static/media/Muslim Rafiq.png": "/rafiq1/static/media/Muslim Rafiq.97731bf8ac27a2143c5f.png",
     "static/media/Doctor Rafiq.png": "/rafiq1/static/media/Doctor Rafiq.59c4de2999589b1e6a1d.png",
     "static/media/Rafiq.png": "/rafiq1/static/media/Rafiq.1753a170583256d3d761.png",
+    "static/media/Manager 2.png": "/rafiq1/static/media/Manager 2.17586405cf9b499ce9e9.png",
     "static/media/dizzy Rafiq 1.png": "/rafiq1/static/media/dizzy Rafiq 1.32b0726d3fc7dd13f17a.png",
     "static/media/bg (1).png": "/rafiq1/static/media/bg (1).6ce7aa049d0d21312981.png",
     "static/media/DancingScript-SemiBold.ttf": "/rafiq1/static/media/DancingScript-SemiBold.e8406f3ab340a352f3ce.ttf",
-    "static/media/Manager 1.png": "/rafiq1/static/media/Manager 1.a29e3aba4dc8cb4eb597.png",
     "static/media/google_play.webp": "/rafiq1/static/media/google_play.84e87e1f14d5e7037325.webp",
     "static/media/apple_store.webp": "/rafiq1/static/media/apple_store.275578c4a9e6b1cc4d6d.webp",
     "index.html": "/rafiq1/index.html",
-    "main.4ea65e20.css.map": "/rafiq1/static/css/main.4ea65e20.css.map",
-    "main.1d394517.js.map": "/rafiq1/static/js/main.1d394517.js.map",
+    "main.5d98b03c.css.map": "/rafiq1/static/css/main.5d98b03c.css.map",
+    "main.d59e936e.js.map": "/rafiq1/static/js/main.d59e936e.js.map",
     "453.070b9a6d.chunk.js.map": "/rafiq1/static/js/453.070b9a6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ea65e20.css",
-    "static/js/main.1d394517.js"
+    "static/css/main.5d98b03c.css",
+    "static/js/main.d59e936e.js"
   ]
 }
