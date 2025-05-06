@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rafiq1/static/css/main.5d98b03c.css",
+    "main.css": "/rafiq1/static/css/main.5ab24d0c.css",
     "main.js": "/rafiq1/static/js/main.d59e936e.js",
     "static/js/453.070b9a6d.chunk.js": "/rafiq1/static/js/453.070b9a6d.chunk.js",
     "static/media/Big Rafiq.png": "/rafiq1/static/media/Big Rafiq.2952d51ea4460d71d587.png",
@@ -15,12 +15,12 @@
     "static/media/google_play.webp": "/rafiq1/static/media/google_play.84e87e1f14d5e7037325.webp",
     "static/media/apple_store.webp": "/rafiq1/static/media/apple_store.275578c4a9e6b1cc4d6d.webp",
     "index.html": "/rafiq1/index.html",
-    "main.5d98b03c.css.map": "/rafiq1/static/css/main.5d98b03c.css.map",
+    "main.5ab24d0c.css.map": "/rafiq1/static/css/main.5ab24d0c.css.map",
     "main.d59e936e.js.map": "/rafiq1/static/js/main.d59e936e.js.map",
     "453.070b9a6d.chunk.js.map": "/rafiq1/static/js/453.070b9a6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d98b03c.css",
+    "static/css/main.5ab24d0c.css",
     "static/js/main.d59e936e.js"
   ]
 }
