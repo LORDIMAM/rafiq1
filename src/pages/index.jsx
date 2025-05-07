@@ -29,10 +29,10 @@ export default function Home() {
                                 {value === 1 ? (
                                     <div className="download-buttons">
                                         <div className="download-button1">
-                                            <Link to="/"><img src={googlePlay} alt="Google Play" /></Link>
+                                            <Link to="/d"><img src={googlePlay} alt="Google Play" /></Link>
                                         </div>
                                         <div className="download-button2">
-                                            <Link to="/"><img src={appStore} alt="App Store" /></Link>
+                                            <Link to="/d"><img src={appStore} alt="App Store" /></Link>
                                         </div>
                                     </div>
                                 ) : (

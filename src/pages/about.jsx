@@ -1,5 +1,5 @@
 import React from "react";
-import manager from "../assets/images/Manager 1.png";
+import manager from "../assets/images/Manager 2.png";
 import doctor from "../assets/images/Doctor Rafiq.png";
 import big from "../assets/images/Big Rafiq.png";
 import sheikh from "../assets/images/Muslim Rafiq.png";
