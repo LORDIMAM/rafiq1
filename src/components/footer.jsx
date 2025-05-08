@@ -34,7 +34,7 @@ export default function Footer() {
                 <hr className="footer-line" />
 
                 <div className="footer-bottom">
-                    <p className="copyright">© 2025 Rafiq.com</p>
+                    <p className="copyright">© 2025 Rafiq.studio</p>
                     <div className="social-icons">
                         <Link className="social-icon insta-icon"><FaInstagram /></Link>
                         <Link className="social-icon x-icon"><FaXTwitter /></Link>

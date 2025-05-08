@@ -1,5 +1,5 @@
 import React from "react";
-import spiritual from "../assets/images/islam 1.png";
+import spiritual from "../assets/images/moon.png";
 import routine from "../assets/images/time-management 1.png";
 import health from "../assets/images/heart-beat 1.png";
 import workout from "../assets/images/dumbbell (1) 1.png";
@@ -39,7 +39,7 @@ export default function Services() {
                             <p>Comfortable and hassle-free travel options.</p>
                         </div>
                         <div className="service-card">
-                            <div className="service-card-img">
+                            <div className="service-card-img workout-img">
                                 <img src={workout} alt="Workout and Fitness" className="services-img workout-img" />
                                 <span className="sevice-img-bg"></span>
                             </div>
