@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c529076d.css",
-    "main.js": "/static/js/main.c3311bc0.js",
+    "main.css": "/static/css/main.40c36ae6.css",
+    "main.js": "/static/js/main.ef62e93a.js",
     "static/js/453.070b9a6d.chunk.js": "/static/js/453.070b9a6d.chunk.js",
     "static/media/Big Rafiq.png": "/static/media/Big Rafiq.2952d51ea4460d71d587.png",
     "static/media/RafiqX.png": "/static/media/RafiqX.6dcc8e2f391bc884f5ce.png",
@@ -9,18 +9,21 @@
     "static/media/Doctor Rafiq.png": "/static/media/Doctor Rafiq.59c4de2999589b1e6a1d.png",
     "static/media/Rafiq.png": "/static/media/Rafiq.1753a170583256d3d761.png",
     "static/media/Manager 2.png": "/static/media/Manager 2.17586405cf9b499ce9e9.png",
+    "static/media/Inter-VariableFont_opsz,wght.ttf": "/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/dizzy Rafiq 1.png": "/static/media/dizzy Rafiq 1.32b0726d3fc7dd13f17a.png",
     "static/media/bg (1).png": "/static/media/bg (1).6ce7aa049d0d21312981.png",
     "static/media/DancingScript-SemiBold.ttf": "/static/media/DancingScript-SemiBold.e8406f3ab340a352f3ce.ttf",
+    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/google_play.webp": "/static/media/google_play.84e87e1f14d5e7037325.webp",
+    "static/media/moon.png": "/static/media/moon.639f51363fe7f3daa8c5.png",
     "static/media/apple_store.webp": "/static/media/apple_store.275578c4a9e6b1cc4d6d.webp",
     "index.html": "/index.html",
-    "main.c529076d.css.map": "/static/css/main.c529076d.css.map",
-    "main.c3311bc0.js.map": "/static/js/main.c3311bc0.js.map",
+    "main.40c36ae6.css.map": "/static/css/main.40c36ae6.css.map",
+    "main.ef62e93a.js.map": "/static/js/main.ef62e93a.js.map",
     "453.070b9a6d.chunk.js.map": "/static/js/453.070b9a6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c529076d.css",
-    "static/js/main.c3311bc0.js"
+    "static/css/main.40c36ae6.css",
+    "static/js/main.ef62e93a.js"
   ]
 }
