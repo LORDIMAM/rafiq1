@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.40c36ae6.css",
-    "main.js": "/static/js/main.ef62e93a.js",
+    "main.css": "/static/css/main.4519cf46.css",
+    "main.js": "/static/js/main.18940894.js",
     "static/js/453.070b9a6d.chunk.js": "/static/js/453.070b9a6d.chunk.js",
     "static/media/Big Rafiq.png": "/static/media/Big Rafiq.2952d51ea4460d71d587.png",
     "static/media/RafiqX.png": "/static/media/RafiqX.6dcc8e2f391bc884f5ce.png",
     "static/media/Muslim Rafiq.png": "/static/media/Muslim Rafiq.97731bf8ac27a2143c5f.png",
-    "static/media/Doctor Rafiq.png": "/static/media/Doctor Rafiq.59c4de2999589b1e6a1d.png",
     "static/media/Rafiq.png": "/static/media/Rafiq.1753a170583256d3d761.png",
+    "static/media/Doctor Rafiq 2.png": "/static/media/Doctor Rafiq 2.e94f01f937d456738c63.png",
     "static/media/Manager 2.png": "/static/media/Manager 2.17586405cf9b499ce9e9.png",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/dizzy Rafiq 1.png": "/static/media/dizzy Rafiq 1.32b0726d3fc7dd13f17a.png",
@@ -16,14 +16,19 @@
     "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "static/media/google_play.webp": "/static/media/google_play.84e87e1f14d5e7037325.webp",
     "static/media/moon.png": "/static/media/moon.639f51363fe7f3daa8c5.png",
+    "static/media/gear.png": "/static/media/gear.2bc55fe821e780baf6f0.png",
+    "static/media/bot.png": "/static/media/bot.cc4efbcf7c9a4dc80f8d.png",
+    "static/media/chatbot.png": "/static/media/chatbot.640c41ed3dc8014221d4.png",
+    "static/media/dumbbell.png": "/static/media/dumbbell.c9ff1f69f6f750eb7ed6.png",
+    "static/media/heart-beat.png": "/static/media/heart-beat.a277d97eced81e533d5e.png",
     "static/media/apple_store.webp": "/static/media/apple_store.275578c4a9e6b1cc4d6d.webp",
     "index.html": "/index.html",
-    "main.40c36ae6.css.map": "/static/css/main.40c36ae6.css.map",
-    "main.ef62e93a.js.map": "/static/js/main.ef62e93a.js.map",
+    "main.4519cf46.css.map": "/static/css/main.4519cf46.css.map",
+    "main.18940894.js.map": "/static/js/main.18940894.js.map",
     "453.070b9a6d.chunk.js.map": "/static/js/453.070b9a6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40c36ae6.css",
-    "static/js/main.ef62e93a.js"
+    "static/css/main.4519cf46.css",
+    "static/js/main.18940894.js"
   ]
 }
