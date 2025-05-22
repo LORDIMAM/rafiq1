@@ -1,6 +1,5 @@
-import React , {useState}from 'react';
+import React, { useState } from 'react';
 import contact from '../assets/images/contact.png';
-
 import { FaEnvelope, FaUser } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 
@@ -22,10 +21,19 @@ export default function Contact() {
 
     const validate = () => {
         const newErrors = {};
+        const nameRegex = /^[A-Za-z\s'-]+$/;
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
         if (!formData.name.trim()) {
             newErrors.name = 'Name is required';
+        } else if (!nameRegex.test(formData.name.trim())) {
+            newErrors.name = 'Name must contain only letters, spaces';
+        } else if (formData.name[0] === ' ') {
+            newErrors.name = 'Name cannot start with a space';
+        } else if (formData.name.length < 2) {
+            newErrors.name = 'Name must be at least 2 characters long';
+        } else if (formData.name.length > 50) {
+            newErrors.name = 'Name must not exceed 50 characters';
         }
 
         if (!formData.email.trim()) {
@@ -38,8 +46,9 @@ export default function Contact() {
             newErrors.message = 'Message is required';
         } else if (formData.message.length < 8 || formData.message.length > 255) {
             newErrors.message = 'Message must be 8 to 255 characters long';
+        } else if (!nameRegex.test(formData.message.trim())) {
+            newErrors.message = 'Special characters are not allowed';
         }
-
         setErrors(newErrors);
         return Object.keys(newErrors).length === 0;
     };
@@ -48,7 +57,7 @@ export default function Contact() {
         e.preventDefault();
         if (validate()) {
             alert('Message sent successfully!');
-            console.log(formData); 
+            console.log(formData);
             setFormData({ name: '', email: '', message: '' });
             setErrors({});
         }
@@ -65,7 +74,7 @@ export default function Contact() {
                 </div>
 
                 <div className='contact-hero-form'>
-                <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit}>
                         <div className="input-row">
                             <div className="input-wrapper">
                                 <FaUser className="input-icon" />
@@ -76,7 +85,7 @@ export default function Contact() {
                                     value={formData.name}
                                     onChange={handleChange}
                                 />
-                                {errors.name && <span className="error">{errors.name}</span>}
+                                {errors.name && <span className="error user-error">{errors.name}</span>}
                             </div>
                             <div className="input-wrapper">
                                 <FaEnvelope className="input-icon" />
@@ -87,7 +96,7 @@ export default function Contact() {
                                     value={formData.email}
                                     onChange={handleChange}
                                 />
-                                {errors.email && <span className="error">{errors.email}</span>}
+                                {errors.email && <span className="error email-error">{errors.email}</span>}
                             </div>
                         </div>
                         <div className="input-wrapper">
@@ -101,13 +110,12 @@ export default function Contact() {
                                 minLength={8}
                                 maxLength={255}
                             />
-                            {errors.message && <span className="error">{errors.message}</span>}
+                            {errors.message && <span className="error user-error">{errors.message}</span>}
                         </div>
                         <button type='submit'><span className='overlay1'></span>Send Message</button>
                     </form>
-
                 </div>
             </div>
         </section>
-    )
+    );
 }

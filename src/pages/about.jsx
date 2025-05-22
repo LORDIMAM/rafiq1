@@ -1,6 +1,6 @@
 import React from "react";
 import manager from "../assets/images/Manager 2.png";
-import doctor from "../assets/images/Doctor Rafiq.png";
+import doctor from "../assets/images/Doctor Rafiq 2.png";
 import big from "../assets/images/Big Rafiq.png";
 import sheikh from "../assets/images/Muslim Rafiq.png";
 import rafiqx from "../assets/images/RafiqX.png";

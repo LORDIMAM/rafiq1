@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
     const [value] = useState(0);
     return (
-        <footer className="footer">
+        <section className="footer">
             <div className="footer-container">
                 <div className="footer-top">
                     <div className="footer-left">
@@ -42,6 +42,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
     );
 }
