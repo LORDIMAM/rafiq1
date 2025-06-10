@@ -6,14 +6,31 @@ const Chatbot = ({ onClose }) => {
     ]);
     const [input, setInput] = useState('');
 
-    const handleSend = () => {
-        if (input.trim()) {
-            const userMessage = { sender: 'user', text: input };
-            const botReply = { sender: 'bot', text: 'Thanks for your message!' };
-            setMessages(prev => [...prev, userMessage, botReply]);
-            setInput('');
+    const handleSend = async () => {
+    if (input.trim()) {
+        const userMessage = { sender: 'user', text: input };
+        setMessages(prev => [...prev, userMessage]);
+
+        try {
+            const res = await fetch('https://web-production-16ab.up.railway.app/api/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ message: input })
+            });
+
+            const data = await res.json();
+            const botReply = { sender: 'bot', text: data.response };
+            setMessages(prev => [...prev, botReply]);
+        } catch (err) {
+            setMessages(prev => [...prev, { sender: 'bot', text: "Error contacting server." }]);
         }
-    };
+
+        setInput('');
+    }
+};
+
 
     return (
         <div className="chatbot-window">
