@@ -863,7 +863,7 @@ textarea {
 }
 
 .contact-container input:focus,
-textarea:focus {
+.contact-container:focus {
     border-bottom: 2px solid #3A59D1;
     border-right: 2px solid #3A59D1;
     outline: none;
@@ -1236,13 +1236,6 @@ textarea:focus {
     border-bottom-left-radius: 0px;
 }
 
-.chat-input {
-    display: flex;
-    padding: 10px;
-    border-top: 1px solid #ddd;
-    background: #fff;
-}
-
 .chat-input input {
     flex: 1;
     padding: 8px;
@@ -1250,9 +1243,24 @@ textarea:focus {
     border-radius: 15px;
 }
 
+.chat-input textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: none; 
+    overflow: auto;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+
+
+
 .chat-input button {
-    margin-left: 5px;
+    margin: 0px auto;
     padding: 8px 12px;
+    width: 100%;
     background: #3A59D1;
     color: white;
     border: none;

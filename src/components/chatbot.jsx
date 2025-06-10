@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 const Chatbot = ({ onClose }) => {
     const [messages, setMessages] = useState([
@@ -29,8 +29,16 @@ const Chatbot = ({ onClose }) => {
 
         setInput('');
     }
+    
 };
+    const textareaRef = useRef(null);
 
+    useEffect(() => {
+        if (textareaRef.current) {
+            textareaRef.current.style.height = 'auto';
+            textareaRef.current.style.height = `${textareaRef.current.scrollHeight}px`;
+        }
+    }, [input]);
 
     return (
         <div className="chatbot-window">
@@ -46,12 +54,20 @@ const Chatbot = ({ onClose }) => {
                 ))}
             </div>
             <div className="chat-input">
-                <input
+                <textarea
+                    ref={textareaRef}
                     value={input}
                     onChange={e => setInput(e.target.value)}
-                    onKeyDown={e => e.key === 'Enter' && handleSend()}
+                    onKeyDown={e => {
+                        if (e.key === 'Enter' && !e.shiftKey) {
+                            e.preventDefault();
+                            handleSend();
+                        }
+                    }}
                     placeholder="Type your message..."
+                    rows={1}
                 />
+
                 <button onClick={handleSend}>Send</button>
             </div>
         </div>
