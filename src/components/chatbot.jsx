@@ -7,30 +7,30 @@ const Chatbot = ({ onClose }) => {
     const [input, setInput] = useState('');
 
     const handleSend = async () => {
-    if (input.trim()) {
-        const userMessage = { sender: 'user', text: input };
-        setMessages(prev => [...prev, userMessage]);
+        if (input.trim()) {
+            const userMessage = { sender: 'user', text: input };
+            setMessages(prev => [...prev, userMessage]);
 
-        try {
-            const res = await fetch('https://12404fae700a.ngrok-free.app/api/chat', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ message: input })
-            });
+            try {
+                const res = await fetch('https://e51d1ceb0d2e.ngrok-free.app/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: input })
+                });
 
-            const data = await res.json();
-            const botReply = { sender: 'bot', text: data.response };
-            setMessages(prev => [...prev, botReply]);
-        } catch (err) {
-            setMessages(prev => [...prev, { sender: 'bot', text: "Error contacting server." }]);
+                const data = await res.json();
+                const botReply = { sender: 'bot', text: data.response };
+                setMessages(prev => [...prev, botReply]);
+            } catch (err) {
+                setMessages(prev => [...prev, { sender: 'bot', text: "Error contacting server." }]);
+            }
+
+            setInput('');
         }
 
-        setInput('');
-    }
-    
-};
+    };
     const textareaRef = useRef(null);
 
     useEffect(() => {
