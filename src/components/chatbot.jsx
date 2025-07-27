@@ -12,7 +12,7 @@ const Chatbot = ({ onClose }) => {
         setMessages(prev => [...prev, userMessage]);
 
         try {
-            const res = await fetch('https://12404fae700a.ngrok-free.app/api/chat', {
+            const res = await fetch('https://e51d1ceb0d2e.ngrok-free.app/api/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
