@@ -7,7 +7,7 @@ import google.generativeai as genai
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": ["https://rafiq.studio/"]}})
+CORS(app)  # Allow requests from React
 
 # Directly configure your API key here
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
